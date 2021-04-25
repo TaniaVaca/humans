@@ -1,0 +1,10 @@
+co\com\mercadolibrer\humans\model\entity\Genome.class
+co\com\mercadolibrer\humans\model\entity\GenomeRepository.class
+co\com\mercadolibrer\humans\controllers\ForbiddenException.class
+co\com\mercadolibrer\humans\model\Sequence.class
+co\com\mercadolibrer\humans\controllers\HumanController.class
+co\com\mercadolibrer\humans\HumansApplication.class
+co\com\mercadolibrer\humans\model\entity\GenomeServicioImpl.class
+co\com\mercadolibrer\humans\model\entity\GenomeServicio.class
+co\com\mercadolibrer\humans\core\Human.class
+co\com\mercadolibrer\humans\core\utils\Utils.class

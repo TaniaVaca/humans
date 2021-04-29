@@ -32,11 +32,11 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
 # Herramientas Usadas
 -  IDE Eclipse: https://www.eclipse.org/
 -  JDK 1.8: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
--  Spring Boot
--  Maven
--  Junit
--  JCoverga
--  Hibernate
+-  Spring Boot 
+-  Maven https://maven.apache.org/
+-  Junit https://junit.org/junit5/
+-  JCoverga https://www.eclemma.org/
+-  Hibernate https://hibernate.org/
 -  Postman https://www.postman.com/
 -  Amazon RDS Mysql 
 -  Amazon EC2

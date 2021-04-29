@@ -30,13 +30,14 @@ String[] dna =
 En este caso el llamado a la función isMutant(dna) devuelve “true”.
 
 # Herramientas Usadas
--  Eclipse 
--  Java 1.8
+-  IDE Eclipse: https://www.eclipse.org/
+-  JDK 1.8: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 -  Spring Boot
 -  Maven
 -  Junit
 -  JCoverga
 -  Hibernate
+-  Postman https://www.postman.com/
 -  Amazon RDS Mysql 
 -  Amazon EC2
 -  Amazon Elastic Beanstalk
@@ -48,19 +49,19 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
 ### Solución
    - Valido que la secuencia no venga vacía
    - Valido que sean únicamente los caracteres que se deben aceptar (A,T,C,G)
-   - Cree un método para recorre la matriz de forma horizontal
+   - Recorro la matriz de forma horizontal
      
-     ![image](https://user-images.githubusercontent.com/16779783/116491130-c4f95980-a85e-11eb-924f-d3dd040ee23c.png)
+     ![image](https://user-images.githubusercontent.com/16779783/116491654-fde5fe00-a85f-11eb-9924-0f2faae92102.png)
 
-   - Cree un método para recorre la matriz de forma vertical
+   - Recorro la matriz de forma vertical
 
      ![image](https://user-images.githubusercontent.com/16779783/116491595-dd1da880-a85f-11eb-9b2e-eebf39a82e8a.png)
      
-   - Cree un método para recorre la matriz de forma diagonal
+   - Cree un método para recorrer la matriz de forma diagonal --> diagonal(int numOfMutantSequences)
 
      ![image](https://user-images.githubusercontent.com/16779783/116491722-25d56180-a860-11eb-86d7-0632e8e08002.png)
      
-   - Cree un método para recorre la matriz de forma diagonal invertida
+   - Cree un método para recorrer la matriz de forma diagonal invertida  --> diagonal2(int numOfMutantSequences)
 
      ![image](https://user-images.githubusercontent.com/16779783/116491757-3be32200-a860-11eb-9dcc-b0c6436c293f.png)
 
@@ -72,22 +73,19 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
        - La segunda secuencia sería esta
 
        ![image](https://user-images.githubusercontent.com/16779783/116491625-ec045b00-a85f-11eb-94fd-9419704a3e6d.png)
-
-     
-
+       
+       Esto aplica para cualquier posición(Horizontal, Vertical o Diagonal)
+   -  En el mejor de los casos encontro las dos secuencias de forma horizontal
+   -  El peor de los casos es que las dos secuencias se encuentren en la diagonal invertida y tengamos que recorrer toda la matriz
 
 ## Nivel 2:
-Crear una API REST, hostear esa API en un cloud computing libre (Google App Engine,
-Amazon AWS, etc), crear el servicio “/mutant/” en donde se pueda detectar si un humano es
-mutante enviando la secuencia de ADN mediante un HTTP POST con un Json el cual tenga el
-siguiente formato:
-POST → /mutant/
-{
-“dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
-}
-En caso de verificar un mutante, debería devolver un HTTP 200-OK, en caso contrario un
-403-Forbidden
-
+Use Amazon AWS, EC2
+   -  Para probar el servicio **“/mutant/”** use  Postman
+      -   HTTP Status 200 si detecta dos genes mutantes
+          ![image](https://user-images.githubusercontent.com/16779783/116492407-cc6e3200-a861-11eb-97d2-3b585d6bc42b.png)
+      -   HTTP Status 403 si detecta menos de dos genes mutantes
+          ![image](https://user-images.githubusercontent.com/16779783/116492718-98dfd780-a862-11eb-98ee-96f4cdbae33a.png)
+          
 ## Nivel 3:
  
 Usando 

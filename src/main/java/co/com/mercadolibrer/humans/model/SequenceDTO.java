@@ -2,11 +2,11 @@ package co.com.mercadolibrer.humans.model;
 
 import java.io.Serializable;
 
-public class Sequence implements Serializable{
+public class SequenceDTO implements Serializable{
 
 	public String [] dna;
 
-	public Sequence() {
+	public SequenceDTO() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

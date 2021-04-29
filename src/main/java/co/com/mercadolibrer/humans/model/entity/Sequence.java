@@ -22,14 +22,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import co.com.mercadolibrer.humans.model.Sequence;
+import co.com.mercadolibrer.humans.model.SequenceDTO;
 
 
-@Entity(name = "genome")
-@Table(name = "genome")
+@Entity(name = "sequence")
+@Table(name = "sequence")
 //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @TypeDef(name = "json", typeClass = JsonStringType.class)
-public class Genome implements Serializable{
+public class Sequence implements Serializable{
 	
 	/**
 	 * 
@@ -51,13 +51,13 @@ public class Genome implements Serializable{
 //    @Column(columnDefinition = "json")
 //	private Sequence sequence;
 	@Type( type = "json" )
-	@Column(name = "sequence", columnDefinition = "json" )
-	private Sequence sequence;
+	@Column(name = "adn", columnDefinition = "json" )
+	private SequenceDTO adn;
 	
 	@Column(name = "mutant")
 	private boolean mutant;
 
-	public Genome() {
+	public Sequence() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -70,12 +70,12 @@ public class Genome implements Serializable{
 		this.id = id;
 	}
 
-	public Sequence getSequence() {
-		return sequence;
+	public SequenceDTO getAdn() {
+		return adn;
 	}
 
-	public void setSequence(Sequence sequence) {
-		this.sequence = sequence;
+	public void setAdn(SequenceDTO adn) {
+		this.adn = adn;
 	}
 
 	public boolean isMutant() {

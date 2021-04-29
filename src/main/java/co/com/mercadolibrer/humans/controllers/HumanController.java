@@ -12,21 +12,20 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import co.com.mercadolibrer.humans.core.Human;
-import co.com.mercadolibrer.humans.model.Sequence;
-import co.com.mercadolibrer.humans.model.entity.GenomeRepository;
-import co.com.mercadolibrer.humans.model.entity.GenomeServicio;
-import co.com.mercadolibrer.humans.model.entity.GenomeServicioImpl;
+import co.com.mercadolibrer.humans.model.SequenceDTO;
+import co.com.mercadolibrer.humans.model.entity.SequenceRepository;
+import co.com.mercadolibrer.humans.model.entity.SequenceServicio;
+import co.com.mercadolibrer.humans.model.entity.SequenceServicioImpl;
 
 @RestController
 public class HumanController {
 
 	@Autowired
-	GenomeServicio genomeServicio;
+	SequenceServicio sequenceServicio;
 	
 	@PostMapping(value="/mutant",consumes = "application/json", produces = "application/json")
-	public Sequence mutant(@RequestBody Sequence dna) {
-		System.out.println("HumanController.mutant()!!!!!!!!!!!!!!!!!!!!!!!!!!$#$#$#$##$");
-		boolean isMutant = genomeServicio.createSequence(dna);
+	public SequenceDTO mutant(@RequestBody SequenceDTO dna) {
+		boolean isMutant = sequenceServicio.createSequence(dna);
 		if (!isMutant) {
 			throw new ForbiddenException();
 		}
@@ -35,7 +34,7 @@ public class HumanController {
 	
 	@GetMapping("/stats")
 	public String mutant2() {
-		String resp = genomeServicio.getStatusGenome();
+		String resp = sequenceServicio.getStatusSequence();
 		return resp;
 	}
 }

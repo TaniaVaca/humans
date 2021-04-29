@@ -49,19 +49,20 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
 ### Solución
    - Valido que la secuencia no venga vacía
    - Valido que sean únicamente los caracteres que se deben aceptar (A,T,C,G)
-   - Recorro la matriz de forma horizontal
+   - Recorridos
+     -  Forma horizontal
      
      ![image](https://user-images.githubusercontent.com/16779783/116491654-fde5fe00-a85f-11eb-9924-0f2faae92102.png)
 
-   - Recorro la matriz de forma vertical
+     -  Forma vertical
 
      ![image](https://user-images.githubusercontent.com/16779783/116491595-dd1da880-a85f-11eb-9b2e-eebf39a82e8a.png)
      
-   - Cree un método para recorrer la matriz de forma diagonal --> diagonal(int numOfMutantSequences)
+     -  Forma diagonal --> Método diagonal(int numOfMutantSequences)
 
      ![image](https://user-images.githubusercontent.com/16779783/116491722-25d56180-a860-11eb-86d7-0632e8e08002.png)
      
-   - Cree un método para recorrer la matriz de forma diagonal invertida  --> diagonal2(int numOfMutantSequences)
+     -  Forma diagonal invertida  --> Método diagonal2(int numOfMutantSequences)
 
      ![image](https://user-images.githubusercontent.com/16779783/116491757-3be32200-a860-11eb-9dcc-b0c6436c293f.png)
 

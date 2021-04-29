@@ -53,10 +53,12 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
    - Cree un método para recorre la matriz de forma diagonal
    - Cree un método para recorre la matriz de forma diagonal invertida
    - Toma secuencias y si hay un subsecuencia tambien la cuenta como valida
-     - Ejmeplo del caso:
-     - La primera secuencia sería esta
+     - Ejemplo del caso:
+       - La primera secuencia sería esta
+       
        ![image](https://user-images.githubusercontent.com/16779783/116490440-02f57e00-a85d-11eb-8fc3-e33d8754fc30.png)
-     - La segunda secuencia sería esta
+       - La segunda secuencia sería esta
+
        ![image](https://user-images.githubusercontent.com/16779783/116490553-49e37380-a85d-11eb-8b5c-fd71cacf65ca.png)
 
      

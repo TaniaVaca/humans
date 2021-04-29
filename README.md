@@ -32,6 +32,20 @@ String[] dna =
   
 };
 
+
+JSON de salida
+
+    {
+        "dna": [
+        "GCTCAC",
+        "ATCAAT",
+        "GAGAGT",
+        "CATTAC",
+        "TGGACA",
+        "CCCCCC"
+        ]
+    }
+
 En este caso el llamado a la función isMutant(dna) devuelve “true”.
 
 

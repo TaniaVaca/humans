@@ -54,24 +54,24 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
 
    - Cree un método para recorre la matriz de forma vertical
 
-     ![image](https://user-images.githubusercontent.com/16779783/116491418-6aacc880-a85f-11eb-9182-39ea83050b8a.png)
+     ![image](https://user-images.githubusercontent.com/16779783/116491595-dd1da880-a85f-11eb-9b2e-eebf39a82e8a.png)
      
    - Cree un método para recorre la matriz de forma diagonal
 
-     ![image](https://user-images.githubusercontent.com/16779783/116491388-5a94e900-a85f-11eb-8830-208779fcd293.png)
+     ![image](https://user-images.githubusercontent.com/16779783/116491722-25d56180-a860-11eb-86d7-0632e8e08002.png)
      
    - Cree un método para recorre la matriz de forma diagonal invertida
 
-     ![image](https://user-images.githubusercontent.com/16779783/116491474-8ca64b00-a85f-11eb-9b91-6e79b6ad9356.png)
+     ![image](https://user-images.githubusercontent.com/16779783/116491757-3be32200-a860-11eb-9dcc-b0c6436c293f.png)
 
    - Toma secuencias y si hay un subsecuencia tambien la cuenta como valida
      - Ejemplo del caso:
        - La primera secuencia sería esta
        
-       ![image](https://user-images.githubusercontent.com/16779783/116490440-02f57e00-a85d-11eb-8fc3-e33d8754fc30.png)
+       ![image](https://user-images.githubusercontent.com/16779783/116491654-fde5fe00-a85f-11eb-9924-0f2faae92102.png)
        - La segunda secuencia sería esta
 
-       ![image](https://user-images.githubusercontent.com/16779783/116490553-49e37380-a85d-11eb-8b5c-fd71cacf65ca.png)
+       ![image](https://user-images.githubusercontent.com/16779783/116491625-ec045b00-a85f-11eb-94fd-9419704a3e6d.png)
 
      
 

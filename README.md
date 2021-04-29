@@ -1,11 +1,10 @@
-#Autora
-﻿Tania Vaca
+
+# Autora
+﻿# Tania Vaca
  
-﻿# Examen Mercadolibre
- 
-﻿# Mutantes
- 
-#Problema
+# Examen Mercadolibre - Magneto-Mutantes
+
+# Problema
 
 Dada una matriz de (NxN) con la secuencia del ADN. Las letras de los Strings solo pueden ser: (A,T,C,G), las cuales representa 
 

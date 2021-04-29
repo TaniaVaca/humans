@@ -17,13 +17,15 @@ iguales, de forma oblicua, horizontal o vertical.
 String[] dna = 
 
 {
+  "dna": [
   "ATGCGA", 
   "CAGTGC",
   "TTATGT",
   "AGAAGG",
   "CCCCTA",
   "TCACTG"
-};
+  ]
+}
 
 
 JSON de salida

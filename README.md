@@ -17,19 +17,12 @@ iguales, de forma oblicua, horizontal o vertical.
 String[] dna = 
 
 {
-
-  "ATGCGA",
-  
+  "ATGCGA", 
   "CAGTGC",
-  
   "TTATGT",
-  
   "AGAAGG",
-  
   "CCCCTA",
-  
   "TCACTG"
-  
 };
 
 

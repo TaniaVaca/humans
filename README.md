@@ -49,9 +49,21 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
    - Valido que la secuencia no venga vacía
    - Valido que sean únicamente los caracteres que se deben aceptar (A,T,C,G)
    - Cree un método para recorre la matriz de forma horizontal
+     
+     ![image](https://user-images.githubusercontent.com/16779783/116491130-c4f95980-a85e-11eb-924f-d3dd040ee23c.png)
+
    - Cree un método para recorre la matriz de forma vertical
+
+     ![image](https://user-images.githubusercontent.com/16779783/116491418-6aacc880-a85f-11eb-9182-39ea83050b8a.png)
+     
    - Cree un método para recorre la matriz de forma diagonal
+
+     ![image](https://user-images.githubusercontent.com/16779783/116491388-5a94e900-a85f-11eb-8830-208779fcd293.png)
+     
    - Cree un método para recorre la matriz de forma diagonal invertida
+
+     ![image](https://user-images.githubusercontent.com/16779783/116491474-8ca64b00-a85f-11eb-9b91-6e79b6ad9356.png)
+
    - Toma secuencias y si hay un subsecuencia tambien la cuenta como valida
      - Ejemplo del caso:
        - La primera secuencia sería esta

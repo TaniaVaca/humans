@@ -93,7 +93,7 @@ Use Amazon AWS, EC2
 
       ![image](https://user-images.githubusercontent.com/16779783/116492955-3dfab000-a863-11eb-972e-6bd0126a81e9.png)
 
-- Para recibir fluctuaciones agresivas de tráfico, se recomienda usar un balanceador de carga y aumentar la instacia, ya que yo solo probe con la versión gratis y no me permite aumentar de forma grtis
+- Para recibir fluctuaciones agresivas de tráfico, se recomienda usar un balanceador de carga y aumentar la instacia, ya que solo probe con la versión gratis y no me permite aumentar de forma gratis
 - Usando Java Code Coverage for Eclipse realice los Test-Automáticos, donde se obtuvo un Code coverage = 85%.
 
   ![image](https://user-images.githubusercontent.com/16779783/116487709-35e84380-a856-11eb-8109-219aef5691ff.png)

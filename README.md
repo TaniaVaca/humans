@@ -77,7 +77,7 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
        
        Esto aplica para cualquier posición(Horizontal, Vertical o Diagonal)
    -  En el mejor de los casos encontro las dos secuencias de forma horizontal
-   -  El peor de los casos es que las dos secuencias se encuentren en la diagonal invertida y tengamos que recorrer toda la matriz
+   -  El peor de los casos no hay mutantes y tenemos que recorrer toda la matriz con las 4 opciones hasta el final
 
 ## Nivel 2:
 Use Amazon AWS, EC2
@@ -96,4 +96,4 @@ Use Amazon AWS, EC2
 - Para recibir fluctuaciones agresivas de tráfico, se recomienda usar un balanceador de carga y aumentar la instacia, ya que yo solo probe con la versión gratis y no me permite aumentar de forma grtis
 - Usando Java Code Coverage for Eclipse realice los Test-Automáticos, donde se obtuvo un Code coverage = 85%.
 
-      ![image](https://user-images.githubusercontent.com/16779783/116487709-35e84380-a856-11eb-8109-219aef5691ff.png)
+  ![image](https://user-images.githubusercontent.com/16779783/116487709-35e84380-a856-11eb-8109-219aef5691ff.png)

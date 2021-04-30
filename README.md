@@ -32,15 +32,15 @@ En este caso el llamado a la función isMutant(dna) devuelve “true”.
 # Herramientas Usadas
 -  IDE Eclipse: https://www.eclipse.org/
 -  JDK 1.8: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
--  Spring Boot 
+-  Spring Boot https://spring.io/projects/spring-boot
 -  Maven https://maven.apache.org/
 -  Junit https://junit.org/junit5/
 -  JCoverga https://www.eclemma.org/
 -  Hibernate https://hibernate.org/
 -  Postman https://www.postman.com/
--  Amazon RDS Mysql 
--  Amazon EC2
--  Amazon Elastic Beanstalk
+-  Amazon RDS Mysql https://aws.amazon.com/es/rds/
+-  Amazon EC2 https://aws.amazon.com/es/ec2/?ec2-whats-new.sort-by=item.additionalFields.postDateTime&ec2-whats-new.sort-order=desc
+-  Amazon Elastic Beanstalk https://aws.amazon.com/es/elasticbeanstalk/
 
 # Desafíos:
 
@@ -97,3 +97,13 @@ Use Amazon AWS, EC2
 - Usando Java Code Coverage for Eclipse realice los Test-Automáticos, donde se obtuvo un Code coverage = 85%.
 
   ![image](https://user-images.githubusercontent.com/16779783/116487709-35e84380-a856-11eb-8109-219aef5691ff.png)
+  
+# Instrucciones de cómo ejecutar el programa o la API
+ - Ejecutar y compilar la API
+          mvn instal
+          java -jar mutante-app-0.1.0.jar
+- Ejecutar la API, podemos usar Postman para ejecutar los dos métodos 
+-   Post
+    -   http://3.16.151.166:8080/mutant
+-   Get
+    -   http://3.16.151.166:8080/stats
